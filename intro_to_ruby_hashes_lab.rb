@@ -54,10 +54,7 @@ def monopoly_with_fourth_tier
       names: {reading_railroad: {}, pennsylvania_railroad: {}, b_and_o_railroad: {}, shortline_railroad: {}}
     }
   }
-
-    hash[:railroads][:names][:reading_railroad] = "mortgage_value" = 100
-    hash[:railroads][:pennsylvania_railroad][:mortgage_value] = 200
-    hash[:railroads][:b_and_o_railroad][:mortgage_value] = 400
-    hash[:railroads][:shortline_railroad][:mortgage_value] = 800
+  
+  hash[]
 
 end
