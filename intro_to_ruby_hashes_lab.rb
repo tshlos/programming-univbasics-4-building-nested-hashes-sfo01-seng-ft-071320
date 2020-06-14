@@ -56,8 +56,8 @@ def monopoly_with_fourth_tier
   }
   
   hash[:railroads][:name].merge!(reading_railroad: 100)
+  hash[:railroads][:name].merge!(pennsylvania_railroad: 200)
+  hash[:railroads][:name].merge!(b_and_o_railroad: 400)
+  hash[:railroads][:name].merge!(shortline_railroad: 800)
   
-  
-  
-
 end
