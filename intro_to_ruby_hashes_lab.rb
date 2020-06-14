@@ -55,6 +55,8 @@ def monopoly_with_fourth_tier
     }
   }
   
+  hash[:railroads][:name].merge!(reading_railroad: 100)
+  
   
   
 
