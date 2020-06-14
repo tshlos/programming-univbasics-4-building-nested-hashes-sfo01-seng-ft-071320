@@ -55,6 +55,6 @@ def monopoly_with_fourth_tier
     }
   }
   
-  hash[]
+  hash[:railroads][:names][:reading_railroad] = 
 
 end
