@@ -55,9 +55,9 @@ def monopoly_with_fourth_tier
     }
   }
   
-  hash[:railroads][:name][:reading_railroad].merge!(mortgage_value: 100)
-  hash[:railroads][:name][:pennsylvania_railroad].merge!(mortgage_value: 200)
-  hash[:railroads][:name][:b_and_o_railroad].merge!(mortgage_value: 400)
-  hash[:railroads][:name][:shortline_railroad].merge!(mortgage_value: 800)
+  hash[:railroads][:names][:reading_railroad].merge!(mortgage_value: 100)
+  hash[:railroads][:names][:pennsylvania_railroad].merge!(mortgage_value: 200)
+  hash[:railroads][:names][:b_and_o_railroad].merge!(mortgage_value: 400)
+  hash[:railroads][:names][:shortline_railroad].merge!(mortgage_value: 800)
   
 end
