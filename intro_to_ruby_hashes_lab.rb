@@ -55,7 +55,8 @@ def monopoly_with_fourth_tier
     }
   }
   
-     :names=>
+     hash = {
+       :names=>
       {
         :reading_railroad=>
         {
@@ -74,5 +75,6 @@ def monopoly_with_fourth_tier
           "mortgage_value"=>"$800"
         }
       }
+     }
   
 end
